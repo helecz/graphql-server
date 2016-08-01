@@ -1,0 +1,1 @@
+# Hele.cz graphql server

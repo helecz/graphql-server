@@ -1,0 +1,37 @@
+{
+  "name": "hele-graphql-server",
+  "description": "Hele graphql server",
+  "private": true,
+  "main": "src/index.js",
+  "engines": {
+    "node": "6.2.x"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/eslint src",
+    "install": "npm install",
+    "start-graphql": "nodemon src/graphql/index.js",
+    "start-wss": "nodemon src/wss/index.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.4.2",
+    "babel-core": "^6.11.4",
+    "babel-eslint": "^6.1.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-runtime": "^6.9.0",
+    "babel-preset-es2016-node5": "^1.1.2",
+    "babel-register": "^6.11.5",
+    "babel-runtime": "^6.9.1",
+    "bluebird": "^3.4.1",
+    "eslint": "^3.1.1",
+    "eslint-config-airbnb-base": "^5.0.0",
+    "eslint-loader": "^1.4.1",
+    "eslint-plugin-import": "^1.11.1",
+    "express": "^4.14.0",
+    "express-graphql": "^0.5.3",
+    "graphql": "^0.6.2",
+    "graphql-tools": "^0.6.0",
+    "node-uuid": "^1.4.7",
+    "nodemon": "^1.9.2",
+    "socket.io": "^1.4.8"
+  }
+}
